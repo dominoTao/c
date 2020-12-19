@@ -6,6 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "D:/workspace/cdemo/demo/app_demo.c" "D:/workspace/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/demo/app_demo.c.obj"
+  "D:/workspace/cdemo/demo/demo.c" "D:/workspace/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/demo/demo.c.obj"
+  "D:/workspace/cdemo/demo/demo1.c" "D:/workspace/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/demo/demo1.c.obj"
   "D:/workspace/cdemo/helloworld.c" "D:/workspace/cdemo/cmake-build-debug/CMakeFiles/cdemo.dir/helloworld.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

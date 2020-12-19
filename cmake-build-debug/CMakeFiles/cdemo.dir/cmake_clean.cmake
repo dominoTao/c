@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cdemo.dir/demo/app_demo.c.obj"
+  "CMakeFiles/cdemo.dir/demo/demo.c.obj"
+  "CMakeFiles/cdemo.dir/demo/demo1.c.obj"
   "CMakeFiles/cdemo.dir/helloworld.c.obj"
   "CMakeFiles/cdemo.dir/main.cpp.obj"
   "cdemo.exe"

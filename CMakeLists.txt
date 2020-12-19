@@ -3,4 +3,4 @@ project(cdemo)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(cdemo main.cpp helloworld.c demo/app_demo.c)
+add_executable(cdemo main.cpp helloworld.c demo/app_demo.c demo/demo.c demo/demo1.c)
