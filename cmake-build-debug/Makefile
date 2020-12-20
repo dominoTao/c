@@ -142,6 +142,33 @@ cdemo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/build
 .PHONY : cdemo/fast
 
+demo/a.obj: demo/a.c.obj
+
+.PHONY : demo/a.obj
+
+# target to build an object file
+demo/a.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/demo/a.c.obj
+.PHONY : demo/a.c.obj
+
+demo/a.i: demo/a.c.i
+
+.PHONY : demo/a.i
+
+# target to preprocess a source file
+demo/a.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/demo/a.c.i
+.PHONY : demo/a.c.i
+
+demo/a.s: demo/a.c.s
+
+.PHONY : demo/a.s
+
+# target to generate assembly for a file
+demo/a.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/demo/a.c.s
+.PHONY : demo/a.c.s
+
 demo/app_demo.obj: demo/app_demo.c.obj
 
 .PHONY : demo/app_demo.obj
@@ -168,6 +195,87 @@ demo/app_demo.s: demo/app_demo.c.s
 demo/app_demo.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/demo/app_demo.c.s
 .PHONY : demo/app_demo.c.s
+
+demo/b.obj: demo/b.c.obj
+
+.PHONY : demo/b.obj
+
+# target to build an object file
+demo/b.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/demo/b.c.obj
+.PHONY : demo/b.c.obj
+
+demo/b.i: demo/b.c.i
+
+.PHONY : demo/b.i
+
+# target to preprocess a source file
+demo/b.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/demo/b.c.i
+.PHONY : demo/b.c.i
+
+demo/b.s: demo/b.c.s
+
+.PHONY : demo/b.s
+
+# target to generate assembly for a file
+demo/b.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/demo/b.c.s
+.PHONY : demo/b.c.s
+
+demo/c.obj: demo/c.c.obj
+
+.PHONY : demo/c.obj
+
+# target to build an object file
+demo/c.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/demo/c.c.obj
+.PHONY : demo/c.c.obj
+
+demo/c.i: demo/c.c.i
+
+.PHONY : demo/c.i
+
+# target to preprocess a source file
+demo/c.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/demo/c.c.i
+.PHONY : demo/c.c.i
+
+demo/c.s: demo/c.c.s
+
+.PHONY : demo/c.s
+
+# target to generate assembly for a file
+demo/c.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/demo/c.c.s
+.PHONY : demo/c.c.s
+
+demo/dateTrans.obj: demo/dateTrans.c.obj
+
+.PHONY : demo/dateTrans.obj
+
+# target to build an object file
+demo/dateTrans.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/demo/dateTrans.c.obj
+.PHONY : demo/dateTrans.c.obj
+
+demo/dateTrans.i: demo/dateTrans.c.i
+
+.PHONY : demo/dateTrans.i
+
+# target to preprocess a source file
+demo/dateTrans.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/demo/dateTrans.c.i
+.PHONY : demo/dateTrans.c.i
+
+demo/dateTrans.s: demo/dateTrans.c.s
+
+.PHONY : demo/dateTrans.s
+
+# target to generate assembly for a file
+demo/dateTrans.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/demo/dateTrans.c.s
+.PHONY : demo/dateTrans.c.s
 
 demo/demo.obj: demo/demo.c.obj
 
@@ -222,6 +330,60 @@ demo/demo1.s: demo/demo1.c.s
 demo/demo1.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/demo/demo1.c.s
 .PHONY : demo/demo1.c.s
+
+demo/maxline.obj: demo/maxline.c.obj
+
+.PHONY : demo/maxline.obj
+
+# target to build an object file
+demo/maxline.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/demo/maxline.c.obj
+.PHONY : demo/maxline.c.obj
+
+demo/maxline.i: demo/maxline.c.i
+
+.PHONY : demo/maxline.i
+
+# target to preprocess a source file
+demo/maxline.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/demo/maxline.c.i
+.PHONY : demo/maxline.c.i
+
+demo/maxline.s: demo/maxline.c.s
+
+.PHONY : demo/maxline.s
+
+# target to generate assembly for a file
+demo/maxline.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/demo/maxline.c.s
+.PHONY : demo/maxline.c.s
+
+demo/readfile.obj: demo/readfile.c.obj
+
+.PHONY : demo/readfile.obj
+
+# target to build an object file
+demo/readfile.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/demo/readfile.c.obj
+.PHONY : demo/readfile.c.obj
+
+demo/readfile.i: demo/readfile.c.i
+
+.PHONY : demo/readfile.i
+
+# target to preprocess a source file
+demo/readfile.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/demo/readfile.c.i
+.PHONY : demo/readfile.c.i
+
+demo/readfile.s: demo/readfile.c.s
+
+.PHONY : demo/readfile.s
+
+# target to generate assembly for a file
+demo/readfile.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cdemo.dir\build.make CMakeFiles/cdemo.dir/demo/readfile.c.s
+.PHONY : demo/readfile.c.s
 
 helloworld.obj: helloworld.c.obj
 
@@ -286,15 +448,33 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... cdemo
+	@echo ... demo/a.obj
+	@echo ... demo/a.i
+	@echo ... demo/a.s
 	@echo ... demo/app_demo.obj
 	@echo ... demo/app_demo.i
 	@echo ... demo/app_demo.s
+	@echo ... demo/b.obj
+	@echo ... demo/b.i
+	@echo ... demo/b.s
+	@echo ... demo/c.obj
+	@echo ... demo/c.i
+	@echo ... demo/c.s
+	@echo ... demo/dateTrans.obj
+	@echo ... demo/dateTrans.i
+	@echo ... demo/dateTrans.s
 	@echo ... demo/demo.obj
 	@echo ... demo/demo.i
 	@echo ... demo/demo.s
 	@echo ... demo/demo1.obj
 	@echo ... demo/demo1.i
 	@echo ... demo/demo1.s
+	@echo ... demo/maxline.obj
+	@echo ... demo/maxline.i
+	@echo ... demo/maxline.s
+	@echo ... demo/readfile.obj
+	@echo ... demo/readfile.i
+	@echo ... demo/readfile.s
 	@echo ... helloworld.obj
 	@echo ... helloworld.i
 	@echo ... helloworld.s

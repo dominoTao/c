@@ -141,13 +141,97 @@ CMakeFiles/cdemo.dir/demo/demo1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdemo.dir/demo/demo1.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\workspace\cdemo\demo\demo1.c -o CMakeFiles\cdemo.dir\demo\demo1.c.s
 
+CMakeFiles/cdemo.dir/demo/maxline.c.obj: CMakeFiles/cdemo.dir/flags.make
+CMakeFiles/cdemo.dir/demo/maxline.c.obj: ../demo/maxline.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\workspace\cdemo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/cdemo.dir/demo/maxline.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cdemo.dir\demo\maxline.c.obj   -c D:\workspace\cdemo\demo\maxline.c
+
+CMakeFiles/cdemo.dir/demo/maxline.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdemo.dir/demo/maxline.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\workspace\cdemo\demo\maxline.c > CMakeFiles\cdemo.dir\demo\maxline.c.i
+
+CMakeFiles/cdemo.dir/demo/maxline.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdemo.dir/demo/maxline.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\workspace\cdemo\demo\maxline.c -o CMakeFiles\cdemo.dir\demo\maxline.c.s
+
+CMakeFiles/cdemo.dir/demo/readfile.c.obj: CMakeFiles/cdemo.dir/flags.make
+CMakeFiles/cdemo.dir/demo/readfile.c.obj: ../demo/readfile.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\workspace\cdemo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/cdemo.dir/demo/readfile.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cdemo.dir\demo\readfile.c.obj   -c D:\workspace\cdemo\demo\readfile.c
+
+CMakeFiles/cdemo.dir/demo/readfile.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdemo.dir/demo/readfile.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\workspace\cdemo\demo\readfile.c > CMakeFiles\cdemo.dir\demo\readfile.c.i
+
+CMakeFiles/cdemo.dir/demo/readfile.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdemo.dir/demo/readfile.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\workspace\cdemo\demo\readfile.c -o CMakeFiles\cdemo.dir\demo\readfile.c.s
+
+CMakeFiles/cdemo.dir/demo/a.c.obj: CMakeFiles/cdemo.dir/flags.make
+CMakeFiles/cdemo.dir/demo/a.c.obj: ../demo/a.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\workspace\cdemo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/cdemo.dir/demo/a.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cdemo.dir\demo\a.c.obj   -c D:\workspace\cdemo\demo\a.c
+
+CMakeFiles/cdemo.dir/demo/a.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdemo.dir/demo/a.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\workspace\cdemo\demo\a.c > CMakeFiles\cdemo.dir\demo\a.c.i
+
+CMakeFiles/cdemo.dir/demo/a.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdemo.dir/demo/a.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\workspace\cdemo\demo\a.c -o CMakeFiles\cdemo.dir\demo\a.c.s
+
+CMakeFiles/cdemo.dir/demo/b.c.obj: CMakeFiles/cdemo.dir/flags.make
+CMakeFiles/cdemo.dir/demo/b.c.obj: ../demo/b.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\workspace\cdemo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/cdemo.dir/demo/b.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cdemo.dir\demo\b.c.obj   -c D:\workspace\cdemo\demo\b.c
+
+CMakeFiles/cdemo.dir/demo/b.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdemo.dir/demo/b.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\workspace\cdemo\demo\b.c > CMakeFiles\cdemo.dir\demo\b.c.i
+
+CMakeFiles/cdemo.dir/demo/b.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdemo.dir/demo/b.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\workspace\cdemo\demo\b.c -o CMakeFiles\cdemo.dir\demo\b.c.s
+
+CMakeFiles/cdemo.dir/demo/c.c.obj: CMakeFiles/cdemo.dir/flags.make
+CMakeFiles/cdemo.dir/demo/c.c.obj: ../demo/c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\workspace\cdemo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/cdemo.dir/demo/c.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cdemo.dir\demo\c.c.obj   -c D:\workspace\cdemo\demo\c.c
+
+CMakeFiles/cdemo.dir/demo/c.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdemo.dir/demo/c.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\workspace\cdemo\demo\c.c > CMakeFiles\cdemo.dir\demo\c.c.i
+
+CMakeFiles/cdemo.dir/demo/c.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdemo.dir/demo/c.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\workspace\cdemo\demo\c.c -o CMakeFiles\cdemo.dir\demo\c.c.s
+
+CMakeFiles/cdemo.dir/demo/dateTrans.c.obj: CMakeFiles/cdemo.dir/flags.make
+CMakeFiles/cdemo.dir/demo/dateTrans.c.obj: ../demo/dateTrans.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\workspace\cdemo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/cdemo.dir/demo/dateTrans.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cdemo.dir\demo\dateTrans.c.obj   -c D:\workspace\cdemo\demo\dateTrans.c
+
+CMakeFiles/cdemo.dir/demo/dateTrans.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cdemo.dir/demo/dateTrans.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\workspace\cdemo\demo\dateTrans.c > CMakeFiles\cdemo.dir\demo\dateTrans.c.i
+
+CMakeFiles/cdemo.dir/demo/dateTrans.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cdemo.dir/demo/dateTrans.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\workspace\cdemo\demo\dateTrans.c -o CMakeFiles\cdemo.dir\demo\dateTrans.c.s
+
 # Object files for target cdemo
 cdemo_OBJECTS = \
 "CMakeFiles/cdemo.dir/main.cpp.obj" \
 "CMakeFiles/cdemo.dir/helloworld.c.obj" \
 "CMakeFiles/cdemo.dir/demo/app_demo.c.obj" \
 "CMakeFiles/cdemo.dir/demo/demo.c.obj" \
-"CMakeFiles/cdemo.dir/demo/demo1.c.obj"
+"CMakeFiles/cdemo.dir/demo/demo1.c.obj" \
+"CMakeFiles/cdemo.dir/demo/maxline.c.obj" \
+"CMakeFiles/cdemo.dir/demo/readfile.c.obj" \
+"CMakeFiles/cdemo.dir/demo/a.c.obj" \
+"CMakeFiles/cdemo.dir/demo/b.c.obj" \
+"CMakeFiles/cdemo.dir/demo/c.c.obj" \
+"CMakeFiles/cdemo.dir/demo/dateTrans.c.obj"
 
 # External object files for target cdemo
 cdemo_EXTERNAL_OBJECTS =
@@ -157,11 +241,17 @@ cdemo.exe: CMakeFiles/cdemo.dir/helloworld.c.obj
 cdemo.exe: CMakeFiles/cdemo.dir/demo/app_demo.c.obj
 cdemo.exe: CMakeFiles/cdemo.dir/demo/demo.c.obj
 cdemo.exe: CMakeFiles/cdemo.dir/demo/demo1.c.obj
+cdemo.exe: CMakeFiles/cdemo.dir/demo/maxline.c.obj
+cdemo.exe: CMakeFiles/cdemo.dir/demo/readfile.c.obj
+cdemo.exe: CMakeFiles/cdemo.dir/demo/a.c.obj
+cdemo.exe: CMakeFiles/cdemo.dir/demo/b.c.obj
+cdemo.exe: CMakeFiles/cdemo.dir/demo/c.c.obj
+cdemo.exe: CMakeFiles/cdemo.dir/demo/dateTrans.c.obj
 cdemo.exe: CMakeFiles/cdemo.dir/build.make
 cdemo.exe: CMakeFiles/cdemo.dir/linklibs.rsp
 cdemo.exe: CMakeFiles/cdemo.dir/objects1.rsp
 cdemo.exe: CMakeFiles/cdemo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\workspace\cdemo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable cdemo.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\workspace\cdemo\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable cdemo.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cdemo.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

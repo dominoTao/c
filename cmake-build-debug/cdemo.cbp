@@ -80,13 +80,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/workspace/cdemo/demo/a.c">
+			<Option target="cdemo"/>
+		</Unit>
 		<Unit filename="D:/workspace/cdemo/demo/app_demo.c">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="D:/workspace/cdemo/demo/b.c">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="D:/workspace/cdemo/demo/c.c">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="D:/workspace/cdemo/demo/dateTrans.c">
 			<Option target="cdemo"/>
 		</Unit>
 		<Unit filename="D:/workspace/cdemo/demo/demo.c">
 			<Option target="cdemo"/>
 		</Unit>
 		<Unit filename="D:/workspace/cdemo/demo/demo1.c">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="D:/workspace/cdemo/demo/maxline.c">
+			<Option target="cdemo"/>
+		</Unit>
+		<Unit filename="D:/workspace/cdemo/demo/readfile.c">
 			<Option target="cdemo"/>
 		</Unit>
 		<Unit filename="D:/workspace/cdemo/helloworld.c">
